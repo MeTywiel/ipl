@@ -72,6 +72,48 @@ footer {
   margin-top: auto;          /* pousse le footer en bas */
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* 🔥 empêche le défilement */
+}
+
+/* Conteneur principal de ta page */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* haut + bas */
+  background: #0b0b15; /* ou ton fond animé */
+  color: #fff;
+}
+
+/* Navigation en haut */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+/* Contenu au centre */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer collé en bas */
+footer {
+  background: rgba(10, 10, 20, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(236, 72, 153, 0.3);
+  width: 100%;
+}
 
 
 </style>  
