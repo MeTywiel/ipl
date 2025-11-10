@@ -10,7 +10,8 @@ async function hash(text) {
 const passwords = {
   farm: "8bef9b94af8afcc7a8d9b53e5741488c0091866dfd5e66c8f7764d206648de5d",
   com:  "4c838c2788ef5fc6efd33d6c29a7cdfc2983303ff252dbb726bec20c482eeecf",
-  quetes: "61032bbe9ba1e16fad843db50c9079af69029062135311101769181fa1863fef"
+  quetes: "61032bbe9ba1e16fad843db50c9079af69029062135311101769181fa1863fef",
+  calendrier : "8e9ba0e80029a67f6a6899fee6e4b0ae7ee7457e977965035e13f87a6f5aa03e"
 };
 
 function authKey(zone) {
